@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://i.ibb.co/7CrMPtp/15578bade17dcc3.jpg')
+}
+</style>
+</head>
+<body>
+
+<h2 class="w3-center">MY BIRTHDAY</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="<a href="<a href="https://ibb.co/MVqCzmS"><img src="https://i.ibb.co/6P6WKkw/Whats-App-Image-2021-12-15-at-10-12-10-PM.jpg>" style="width:100%">
+<h2 class="w3-center">HOLIDAY</h2>
+  <img class="mySlides" src="<a href="https://ibb.co/StxCvhw"><img src="https://i.ibb.co/GWJSPKQ/Whats-App-Image-2021-12-15-at-10-12-09-PM.jpg>" style="width:100%">
+<h2 class="w3-center">VACCINATION DAY</h2>
+  <img class="mySlides" src="<a href="https://ibb.co/S3TZm8W"><img src="https://i.ibb.co/rwPXpST/Whats-App-Image-2021-12-15-at-10-15-37-PM.jpg>" style="width:100%">
+<h2 class="w3-center">EID DAY</h2>
+  <img class="mySlides" src="<a href="https://ibb.co/PFcL1GB"><img src="https://i.ibb.co/6rHMD06/Whats-App-Image-2021-12-15-at-10-12-10-PM-1.jpg>" style="width:100%">
+<h2 class="w3-center">MY BIG FAMILY</h2>
+  <img class="mySlides" src="<<a href="https://ibb.co/8jqpJWN"><img src="https://i.ibb.co/4jzGc6K/Whats-App-Image-2021-12-15-at-10-12-10-PM-2.jpg>" style="width:100%">
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

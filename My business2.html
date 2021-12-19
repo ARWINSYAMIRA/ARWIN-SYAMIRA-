@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/813560.jpg');
+}
+</style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">My Business Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="<a href="https://ibb.co/txbC6DZ"><img src="https://i.ibb.co/yY8sCqh/Whats-App-Image-2021-12-14-at-3-18-10-PM-7.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/3p5B2PY"><img src="https://i.ibb.co/m9r6kPF/Whats-App-Image-2021-12-14-at-3-18-10-PM-6.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/X7dMNk6"><img src="https://i.ibb.co/GW1NB3G/Whats-App-Image-2021-12-14-at-3-18-09-PM.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/Wc4mhhq"><img src="https://i.ibb.co/mHVfjj1/Whats-App-Image-2021-12-14-at-3-18-09-PM-1.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/cFDBQR8"><img src="https://i.ibb.co/7W2fKBp/Whats-App-Image-2021-12-14-at-3-18-10-PM.jpg>"  style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/QJB5Y46"><img src="https://i.ibb.co/p1Dm4S3/Whats-App-Image-2021-12-14-at-3-18-10-PM-1.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/qNF8CHs"><img src="https://i.ibb.co/gSF8d0T/Whats-App-Image-2021-12-14-at-3-18-10-PM-3.jpg>" style="width:100%">
+  <img class="mySlides" src="<a href="https://ibb.co/mC8nhf5"><img src="https://i.ibb.co/C52jVRK/Whats-App-Image-2021-12-14-at-3-18-10-PM-5.jpg>" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
